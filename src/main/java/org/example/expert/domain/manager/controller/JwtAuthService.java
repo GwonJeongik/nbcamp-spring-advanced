@@ -13,7 +13,7 @@ public class JwtAuthService {
         this.jwtUtil = jwtUtil;
     }
 
-    long getUserIdByToken(String bearerToken) {
+    public long getUserIdByToken(String bearerToken) {
 
         String token;
 
